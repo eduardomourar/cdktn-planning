@@ -32,3 +32,12 @@ Adoption audit for the `constructs` 10.6 Mixins primitive (`IMixin` +
 mixin-vs-aspect model. Code/architecture audit (no binary sweep).
 
 - [ ] Proposal ([`05-mixins/PROPOSAL.md`](05-mixins/PROPOSAL.md)) — proposed; ship `PreventDestroy` core mixin + Mixins concept doc pending
+
+## Example Code Placement
+
+Defines where sample code lives — CI-gated feature examples in the `cdk-terrain`
+monorepo, standalone real-world projects in a dedicated `cdktn-examples` repo —
+and why the git-submodule approach is not adopted. Code/architecture audit (no
+binary sweep).
+
+- [ ] Proposal ([`06-examples-placement/PROPOSAL.md`](06-examples-placement/PROPOSAL.md)) — proposed
