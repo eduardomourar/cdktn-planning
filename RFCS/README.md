@@ -33,11 +33,12 @@ mixin-vs-aspect model. Code/architecture audit (no binary sweep).
 
 - [ ] Proposal ([`05-mixins/PROPOSAL.md`](05-mixins/PROPOSAL.md)) — proposed; ship `PreventDestroy` core mixin + Mixins concept doc pending
 
-## Example Code Placement
+## Examples and Integration Tests Placement
 
-Defines where sample code lives — CI-gated feature examples in the `cdk-terrain`
-monorepo, standalone real-world projects in a dedicated `cdktn-examples` repo —
-and why the git-submodule approach is not adopted. Code/architecture audit (no
-binary sweep).
+Separates CI-gated integration tests (existing monorepo `test/` harness, track
+`main`) from instructional examples (dedicated `cdktn-examples` repo, pinned to
+the latest release, the only thing the docs link to), drains the current
+`examples/` tree onto that split, and rejects the git-submodule approach.
+Code/architecture audit (no binary sweep).
 
 - [ ] Proposal ([`06-examples-placement/PROPOSAL.md`](06-examples-placement/PROPOSAL.md)) — proposed
